@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    font-variant: small-caps;
+    background: rgb(30,30,30);
+    color:white;
+}
+.outer{
+    /*background: rgb(9, 4, 39);*/
+    display: inline-block;
+    position: relative;
+    padding:50px;
+    top:40px;left:500px;
+    border-radius: 10%;
+    border: 1px solid rgb(82, 75, 75);
+}
+.outer div{
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+.front{
+    /*background:rgb(8, 44, 8);*/
+    padding:30px;
+}
+.back{
+    padding: 30px;
+    /*background: rgb(26, 4, 4);*/
+}
+#modal-box{
+    background: rgb(0, 0, 0);
+    position:fixed;
+    left: 0;right: 0;
+    bottom:0px;
+    width:100%;height:100%;
+    z-index: 100;
+    display:none;
+    border-radius: 0%;
+    transition: 2s;
+}
+#modal-form{
+    position:absolute;
+}
